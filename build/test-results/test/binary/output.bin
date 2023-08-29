@@ -1,40 +1,40 @@
-Z20:53:35.369 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - MyPool - configuration:
-h20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-g20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
-g20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-g20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-g20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-h20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-g20:53:35.377 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-g20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-g20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-v20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-g20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName.................none
-g20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-e20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-g20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-i20:53:35.378 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-d20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-h20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-Š20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:h2:tcp://localhost/~/transactional
-d20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-d20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-j20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-e20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
-g20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-g20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-e20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
-k20:53:35.379 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-k20:53:35.380 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"MyPool"
-h20:53:35.380 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-h20:53:35.380 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-g20:53:35.380 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-g20:53:35.380 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-k20:53:35.381 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-j20:53:35.381 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
-g20:53:35.381 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username........................"sa"
-g20:53:35.381 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Z20:53:35.381 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - MyPool - Starting...
-«20:53:35.384 [Test worker] DEBUG com.zaxxer.hikari.util.DriverDataSource - Loaded driver with class name org.h2.Driver for jdbcUrl=jdbc:h2:tcp://localhost/~/transactional
-™20:53:35.419 [Test worker] INFO com.zaxxer.hikari.pool.HikariPool - MyPool - Added connection conn0: url=jdbc:h2:tcp://localhost/~/transactional user=SA
-_20:53:35.419 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - MyPool - Start completed.
+Z21:25:14.235 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - MyPool - configuration:
+h21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+g21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+g21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+g21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+g21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+h21:25:14.252 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+g21:25:14.253 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+g21:25:14.254 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+g21:25:14.254 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+v21:25:14.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+g21:25:14.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName.................none
+g21:25:14.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+e21:25:14.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+g21:25:14.256 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+i21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+d21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+h21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+Š21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:h2:tcp://localhost/~/transactional
+d21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+d21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+j21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+e21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+g21:25:14.257 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+g21:25:14.258 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+e21:25:14.258 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+k21:25:14.258 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+k21:25:14.259 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"MyPool"
+h21:25:14.259 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+h21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+g21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+g21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+k21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+j21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+g21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username........................"sa"
+g21:25:14.260 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+Z21:25:14.260 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - MyPool - Starting...
+«21:25:14.273 [Test worker] DEBUG com.zaxxer.hikari.util.DriverDataSource - Loaded driver with class name org.h2.Driver for jdbcUrl=jdbc:h2:tcp://localhost/~/transactional
+™21:25:14.313 [Test worker] INFO com.zaxxer.hikari.pool.HikariPool - MyPool - Added connection conn0: url=jdbc:h2:tcp://localhost/~/transactional user=SA
+_21:25:14.314 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - MyPool - Start completed.
